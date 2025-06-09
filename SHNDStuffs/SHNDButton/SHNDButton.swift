@@ -63,12 +63,12 @@ open class SHNDButton: UIButton {
     
     // MARK: Gradient Stuffs
     
-    @IBInspectable var firstColor: UIColor = UIColor.white {
+    @IBInspectable public var firstColor: UIColor = UIColor.white {
         didSet {
             update()
         }
     }
-    @IBInspectable var secondColor: UIColor = UIColor.white {
+    @IBInspectable public var secondColor: UIColor = UIColor.white {
         didSet {
             update()
         }
